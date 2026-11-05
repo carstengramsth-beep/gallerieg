@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kunstkalender 2027 prisberegner</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+body{margin:0}
+/* Layout: én smal spalte – oplag øverst, resultatet som en kvittering, derefter tabel og grundlag */
+:root {
+  --bg: #f6f4f8; --flade: #ffffff; --tekst: #2a2530; --daempet: #6c6475; --accent: #7d5f99; --linje: #e2dce8; --advarsel: #9a5b00; --advarsel-bg: #fbf1e2;
+  --display: 'Roboto Condensed', 'Arial Narrow', sans-serif; --broed: 'Source Serif 4', Georgia, serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1c1a20; --flade: #26232b; --tekst: #ece8f0; --daempet: #a79fb1; --accent: #c3a6de; --linje: #3a3542; --advarsel: #f0b866; --advarsel-bg: #3a2c18; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #1c1a20; --flade: #26232b; --tekst: #ece8f0; --daempet: #a79fb1; --accent: #c3a6de; --linje: #3a3542; --advarsel: #f0b866; --advarsel-bg: #3a2c18; color-scheme: dark; }
+body { background: var(--bg); color: var(--tekst); font: 1.05rem/1.55 var(--broed);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.ramme { max-width: 720px; margin: 0 auto; padding-block: 28px 64px; display: grid; gap: 24px; }
+h1, h2 { font-family: var(--display); font-weight: 700; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); color: var(--accent); line-height: 1.05; }
+h2 { font-size: 1.25rem; letter-spacing: .02em; }
+.under { font-family: var(--display); color: var(--daempet); text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; margin: 6px 0 0; }
+.boks { background: var(--flade); border: 1px solid var(--linje); border-radius: 6px; padding: 18px 20px; display: grid; gap: 14px; min-width: 0; }
+label, .lbl { font-family: var(--display); font-size: .95rem; color: var(--daempet); letter-spacing: .03em; }
+.oplag { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.oplag input { width: 6.5rem; font: 700 2rem var(--display); text-align: center; padding: 4px 6px; border: 1px solid var(--linje); border-radius: 4px; background: var(--bg); color: var(--tekst); font-variant-numeric: tabular-nums; }
+button { font: 700 1rem var(--display); border: 1px solid var(--linje); background: var(--bg); color: var(--accent); border-radius: 4px; padding: 6px 12px; cursor: pointer; }
+button:hover, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.pm { font-size: 1.5rem; width: 2.6rem; height: 2.6rem; padding: 0; }
+.hurtig { display: flex; gap: 6px; flex-wrap: wrap; }
+.hurtig button[aria-pressed="true"] { background: var(--accent); color: var(--flade); border-color: var(--accent); }
+.kvit { font-variant-numeric: tabular-nums; display: grid; gap: 4px; }
+.kvit .r { display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px dashed var(--linje); }
+.kvit .r span:last-child { font-family: var(--display); font-size: 1.1rem; }
+.kvit .sum { border-bottom: 2px solid var(--tekst); font-weight: 600; }
+.kvit .sum span:last-child { font-weight: 700; font-size: 1.3rem; }
+.stk { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.stk div { background: var(--bg); border-radius: 4px; padding: 10px 12px; }
+.stk b { display: block; font: 700 1.6rem var(--display); font-variant-numeric: tabular-nums; color: var(--accent); }
+.note { font-size: .92rem; color: var(--advarsel); background: var(--advarsel-bg); border-radius: 4px; padding: 8px 12px; margin: 0; }
+.tabel { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: .98rem; }
+th { font-family: var(--display); font-weight: 700; color: var(--daempet); text-align: right; padding: 6px 8px; border-bottom: 2px solid var(--linje); white-space: nowrap; }
+td { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--linje); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+tr.valgt td { background: var(--bg); font-weight: 600; color: var(--accent); }
+.indst { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.indst div { display: grid; gap: 4px; }
+.indst input { font: 1rem var(--display); padding: 6px 8px; border: 1px solid var(--linje); border-radius: 4px; background: var(--bg); color: var(--tekst); font-variant-numeric: tabular-nums; min-width: 0; }
+ul { margin: 0; padding-left: 1.2em; }
+p { margin: 0; max-width: 65ch; }
+@media (max-width: 460px) { .stk { grid-template-columns: 1fr; } }
+
+.laas { max-width: 420px; margin: 0 auto; padding-block: 18vh 64px; display: grid; gap: 18px; }
+.laas form { display: flex; gap: 8px; flex-wrap: wrap; }
+.laas input { flex: 1 1 140px; min-width: 0; font: 700 1.6rem var(--display); letter-spacing: .3em; text-align: center; padding: 6px 10px;
+  border: 1px solid var(--linje); border-radius: 4px; background: var(--flade); color: var(--tekst); }
+.laas button { font-size: 1.1rem; padding: 8px 18px; background: var(--accent); color: var(--flade); border-color: var(--accent); }
+.fejl { color: var(--advarsel); margin: 0; }
+</style>
+
+
+<div class="laas" id="laas">
+  <header><h1>Kunstkalender 2027 – prisberegner</h1><p class="under">GalleriEG · kun for inviterede</p></header>
+  <p>Skriv koden for at se priserne.</p>
+  <form id="kodeform" autocomplete="off">
+    <input id="kode" type="password" inputmode="numeric" aria-label="Kode" autofocus>
+    <button type="submit">Åbn</button>
+  </form>
+  <p class="fejl" id="fejl" hidden>Koden er forkert. Prøv igen.</p>
+</div>
+<div id="app"></div>
+<script>
+var LAAST = {"s":"NKMQWr9o2lmGxo4TESdUGw==","i":"NXytK7EwnqCY2rBs","c":"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"};
+
+function startApp(STD) {
+  var HURTIG = [20, 30, 40, 50, 60, 75, 100];
+  var $ = function (id) { return document.getElementById(id); };
+  var kr = function (v) { return v.toLocaleString('da-DK', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' kr.'; };
+  var tal = function (id, fallback) { var v = parseFloat($(id).value); return isFinite(v) && v >= 0 ? v : fallback; };
+
+  function priser() {
+    return {
+      grundpris: tal('grundpris', STD.grundpris),
+      grundantal: Math.max(1, Math.round(tal('grundantal', STD.grundantal))),
+      tillaeg: tal('tillaeg', STD.tillaeg),
+      moms: tal('moms', STD.moms)
+    };
+  }
+
+  // Opstartspris (grundpris − grundantal × stk.-pris) + antal × stk.-pris, plus moms af det hele.
+  function beregn(n, p) {
+    var ex = Math.max(0, p.grundpris + (n - p.grundantal) * p.tillaeg);
+    var moms = ex * p.moms / 100;
+    return { ex: ex, moms: moms, ink: ex + moms, stkEx: ex / n, stkInk: (ex + moms) / n };
+  }
+
+  function antal() { var n = Math.round(tal('antal', 40)); return Math.max(1, n || 1); }
+
+  function gem() {
+    try {
+      localStorage.setItem('prisberegner', JSON.stringify({ antal: antal(), p: priser() }));
+    } catch (e) {}
+  }
+
+  function vis() {
+    var n = antal(), p = priser(), r = beregn(n, p), diff = n - p.grundantal;
+    $('t-antal').textContent = n;
+    var opstart = p.grundpris - p.grundantal * p.tillaeg;
+    $('r-grund').textContent = kr(opstart);
+    $('l-grund').textContent = 'Opstartspris (' + kr(p.grundpris) + ' − ' + p.grundantal + ' × ' + kr(p.tillaeg) + ')';
+    $('l-tillaeg').textContent = n + ' stk. à ' + kr(p.tillaeg);
+    $('r-tillaeg').textContent = kr(n * p.tillaeg);
+    $('l-moms').textContent = p.moms.toLocaleString('da-DK');
+    $('r-ex').textContent = kr(r.ex);
+    $('r-moms').textContent = kr(r.moms);
+    $('r-ink').textContent = kr(r.ink);
+    $('s-ex').textContent = kr(r.stkEx);
+    $('s-ink').textContent = kr(r.stkInk);
+    $('advarsel').hidden = n >= p.grundantal;
+
+    var rows = HURTIG.slice();
+    if (rows.indexOf(n) < 0) { rows.push(n); rows.sort(function (a, b) { return a - b; }); }
+    $('tbody').innerHTML = rows.map(function (m) {
+      var x = beregn(m, p);
+      return '<tr' + (m === n ? ' class="valgt"' : '') + '><td>' + m + ' stk.' + (m < p.grundantal ? ' *' : '') +
+        '</td><td>' + kr(x.ex) + '</td><td>' + kr(x.ink) + '</td><td>' + kr(x.stkInk) + '</td></tr>';
+    }).join('');
+
+    Array.prototype.forEach.call($('hurtig').children, function (b) {
+      b.setAttribute('aria-pressed', String(+b.dataset.n === n));
+    });
+    gem();
+  }
+
+  HURTIG.forEach(function (m) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.textContent = m + ' stk.'; b.dataset.n = m;
+    b.addEventListener('click', function () { $('antal').value = m; vis(); });
+    $('hurtig').appendChild(b);
+  });
+  $('minus').addEventListener('click', function () { $('antal').value = Math.max(1, antal() - 1); vis(); });
+  $('plus').addEventListener('click', function () { $('antal').value = antal() + 1; vis(); });
+  ['antal', 'grundpris', 'grundantal', 'tillaeg', 'moms'].forEach(function (id) { $(id).addEventListener('input', vis); });
+  $('nulstil').addEventListener('click', function () {
+    Object.keys(STD).forEach(function (k) { $(k).value = STD[k]; }); vis();
+  });
+
+  try {
+    var s = JSON.parse(localStorage.getItem('prisberegner') || 'null');
+    if (s) {
+      $('antal').value = s.antal;
+      Object.keys(STD).forEach(function (k) { if (s.p && s.p[k] != null) $(k).value = s.p[k]; });
+    }
+  } catch (e) {}
+  vis();
+}
+(function () {
+  var b = function (s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); };
+  async function aaben(kode) {
+    var base = await crypto.subtle.importKey('raw', new TextEncoder().encode(kode), 'PBKDF2', false, ['deriveKey']);
+    var key = await crypto.subtle.deriveKey({ name: 'PBKDF2', salt: b(LAAST.s), iterations: 250000, hash: 'SHA-256' },
+      base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']);
+    var data = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b(LAAST.i) }, key, b(LAAST.c));
+    return JSON.parse(new TextDecoder().decode(data));
+  }
+  async function forsoeg(kode, stille) {
+    try {
+      var d = await aaben(kode);
+      document.getElementById('laas').hidden = true;
+      document.getElementById('app').innerHTML = d.html;
+      try { sessionStorage.setItem('pb-kode', kode); } catch (e) {}
+      startApp(d.std);
+    } catch (e) {
+      if (!stille) { document.getElementById('fejl').hidden = false; document.getElementById('kode').select(); }
+    }
+  }
+  document.getElementById('kodeform').addEventListener('submit', function (e) {
+    e.preventDefault(); forsoeg(document.getElementById('kode').value.trim(), false);
+  });
+  try { var k = sessionStorage.getItem('pb-kode'); if (k) forsoeg(k, true); } catch (e) {}
+})();
+</script>
