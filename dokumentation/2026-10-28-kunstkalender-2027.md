@@ -11,3 +11,5 @@
 - Billedkvalitet: fotos er ca. 2.000 punkter brede. Til tryk skal de tages om i fuld opløsning.
 - Brede malerier (marts, august, oktober, november) er beskåret til højformat. Elisabeth skal godkende beskæringen.
 - Tekster: `kalender-2027/tekster.md`. Word-fil sendt til Elisabeth 5. nov. 2026 til rettelse.
+- 6. nov. 2026: Elisabeth har godkendt teksterne. Ny tekst om 2027 og opdateret "Om mig selv" er sat ind på tekstsiden (udkast 3).
+  Ny mail i bundlinjen: eg@gallerieg.dk. Værker på papir får ingen mål i billedteksten.

@@ -132,30 +132,34 @@ def tekstside():
 body{font-family:Inter,sans-serif;color:#222}
 .p{position:absolute;inset:70px 80px}
 h1{font:800 70px Inter;color:#8e6aa5;letter-spacing:-1px}
-.ph{margin-top:22px;font:italic 400 17px Inter;color:#8e6aa5;max-width:640px;line-height:1.4}
-.ph p+p{margin-top:8px}
-.f{margin-top:12px;font:400 16px Inter;max-width:640px;line-height:1.45}
-.tre{margin-top:46px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;grid-template-rows:300px}
+.intro{margin-top:18px;font:400 15px Inter;line-height:1.45;columns:2;column-gap:36px}
+.intro p{margin-bottom:7px}
+.f{margin-top:6px;font:italic 400 14px Inter;color:#8e6aa5;line-height:1.4}
+.tre{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;grid-template-rows:290px}
 .tre img{min-height:0;display:block}
 .tre img{width:100%;height:100%;object-fit:cover}
 h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
-.cols{margin-top:8px;columns:2;column-gap:36px;font:400 14px Inter;line-height:1.45}
+.cols{margin-top:6px;columns:2;column-gap:36px;font:400 13.5px Inter;line-height:1.42}
 .cols p{margin-bottom:9px}
 .fod{position:absolute;bottom:0;font:400 15px Inter;color:#999}"""
     body = """<div class=p>
 <h1>Kunstkalender 2027</h1>
-<div class=ph><p>[Elisabeths tekst om kalender 2027 kommer her.]</p>
-<p>[Fx: hvilke motiver og serier der er valgt i år, udstillinger i 2026 og planer for 2027.]</p></div>
+<div class=intro>
+<p>I dette års kalender har jeg valgt billeder, hvor motiverne er ret forskellige – både i motiver og brug af farver/malemåder/teknikker.</p>
+<p>Der er motiver malet med akryl, softpastel, akvarel, japansk SUMI-E kalligrafi. Mine motiver spreder sig over en bred palet. Jeg maler landskaber, himmel/hav, blomster på forskellige måder, ”Damer for sjov”. Jeg maler ofte i serier.</p>
+<p>Billederne i kalenderen er et udsnit af nogle af mine malerier. Målene på selve malerierne står under billedet, hvis det er malet på lærred.</p>
+<p>Jeg henter inspiration i mine omgivelser, steder jeg har været – og fri fantasi.</p>
+</div>
 <div class=f>Følg mig på instagram: galleri.eg og min hjemmeside: www.elisabeth.minisite.dk og hold dig opdateret om mine udstillinger i 2027.</div>
 <div class=tre><img src="../img/01.jpg"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
 <h2>Og lidt om mig selv.</h2>
 <div class=cols>
-<p>Jeg maler fortrinsvis landskaber, himmel/hav ekspressivt og med abstraktioner, men også huse, ansigter, mennesker, blomster – også med abstraktioner. Jeg maler abstrakte malerier, hvor motivet ikke er figurativt.</p>
-<p>Jeg har gennem de sidste 13 år deltaget i flere kurser – både i ind- og udlandet. Jeg har bl.a. været på ”Kunsthøjskolen på Ærø”, ”Kunstskolen Sønderbygaard”, Vinderup, ”Kragekær Kunstskole”, Tåsinge, flere gange. Jeg har været på kursus i Sydfrankrig og Sydafrika. Jeg er tilknyttet et par kunstskoler og et par malehold, hvor jeg henter inspiration og får udvidet mit kendskab til forskellige maleteknikker.</p>
-<p>Jeg har udstillet mine malerier forskellige steder – både fælles udstillinger og alene. Jeg har udstillet gennem Stevns Kunstforening nogle gange, bl.a. på ”Kulturloftet” i Store Heddinge. Derudover har jeg udstillet flere steder på Stevns, i Køge, i Greve, i Herlev, i Brøndby, på CPH Art Space på Docken i København, Byens hus i Gentofte, Galleri Pialeh Frederiksberg, Sognegården i Stenløse.</p>
-<p>Jeg er i 2019 igen begyndt at lave stentøj, som ellers har været lagt på hylden i nogle år p g a en skulderskade. Jeg laver små skulpturer, blomster og fugle i stentøj.</p>
+<p>Jeg maler fortrinsvis landskaber, himmel/hav ekspressivt og med abstraktioner, men også huse, ansigter, mennesker, blomster – også med abstraktioner. Jeg har i løbet af det sidste års tid malet en del akvarel og med pastelkridt – har også været på kursus i det.</p>
+<p>Jeg har gennem de sidste 17 år deltaget i flere kurser – både i ind- og udlandet. Jeg har bl.a. været på ”Kunsthøjskolen på Ærø”, ”Kunstskolen Sønderbygaard”, Vinderup, ”Kragekær Kunstskole”, Tåsinge, flere gange. Jeg har deltaget i malekurser på Gram Højskole flere gange, en enkelt gang på Ryslinge Højskole. Jeg har været på kursus i Sydfrankrig og Sydafrika. Jeg er tilknyttet en kunstskole og et par malehold, hvor jeg henter inspiration og får udvidet mit kendskab til forskellige maleteknikker.</p>
+<p>Jeg har udstillet mine malerier forskellige steder – både fælles udstillinger og alene. Jeg har udstillet gennem Stevns Kunstforening nogle gange, bl.a. på ”Kulturloftet” i Store Heddinge. Derudover har jeg udstillet flere steder på Stevns, i Køge, i Greve, i Herlev, i Brøndby, på CPH Art Space på Docken i København, Byens hus i Gentofte, Galleri Pialeh Frederiksberg, Sognegården i Stenløse, Sjællands Universitets Hospital i Køge, X-Porten i Hundested, Galleri Lowlands, Rørholmsgade København.</p>
+<p>Jeg laver små skulpturer, blomster og fugle i stentøj.</p>
 </div>
-<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@paritas.dk • elisabeth.minisite.dk • instagram: galleri.eg</div>
+<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • elisabeth.minisite.dk • instagram: galleri.eg</div>
 </div>"""
     side("s-03.html", 1181, 1181, css, body)
 
