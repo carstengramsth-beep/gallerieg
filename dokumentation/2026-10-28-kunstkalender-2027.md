@@ -19,3 +19,4 @@
   - Pakke med alle billeder, tekster og mål, så kalenderen kan bygges op igen af andre.
   - Carsten taler med Ole om nye fotos af malerierne (mindst ca. 3.600 punkter brede).
   - Afvent: spørgsmål til Dantryk om udfald, farveprofil, guld i logo og plads til wire. Carsten skriver først, når billederne er aftalt.
+- Kalenderen uddeles til venner og bekendte og sælges af Elisabeth. **Ingen familiemærkedage** – kun helligdage og officielle mærkedage.
