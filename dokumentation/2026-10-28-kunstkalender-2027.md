@@ -13,3 +13,9 @@
 - Tekster: `kalender-2027/tekster.md`. Word-fil sendt til Elisabeth 5. nov. 2026 til rettelse.
 - 6. nov. 2026: Elisabeth har godkendt teksterne. Ny tekst om 2027 og opdateret "Om mig selv" er sat ind på tekstsiden (udkast 3).
   Ny mail i bundlinjen: eg@gallerieg.dk. Værker på papir får ingen mål i billedteksten.
+- 10. nov. 2026: Plan for tryk:
+  - Trykklare PDF'er pr. del (forside 30×40, omslag 30×60, tekstside 30×30, 12 månedssider 30×60) med udfald og skæremærker.
+  - Ekstra udgang: IDML-fil (åbnes i InDesign) med billeder som links, så en 3. mand kan skifte billeder. Først en prøveside (januar), som tjekkes i InDesign.
+  - Pakke med alle billeder, tekster og mål, så kalenderen kan bygges op igen af andre.
+  - Carsten taler med Ole om nye fotos af malerierne (mindst ca. 3.600 punkter brede).
+  - Afvent: spørgsmål til Dantryk om udfald, farveprofil, guld i logo og plads til wire. Carsten skriver først, når billederne er aftalt.
