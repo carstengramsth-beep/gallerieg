@@ -11,6 +11,11 @@
 - 11. nov. 2026 kl. 11:56: Carsten ser forsiden på gallerieg.dk. Hjemmesiden virker! Browseren viser stadig "Ikke sikker".
 - Mangler: GitHub udsteder certifikat (minutter til et døgn). Derefter: sæt flueben i "Enforce HTTPS", og Carsten tester www.gallerieg.dk igen.
 
+## Frist og næste skridt
+- Den gamle side (elisabeth.minisite.dk) er betalt frem til **november 2027**.
+- Derfor skal den nye hjemmeside være færdig senest **november 2027**.
+- Pause lige nu: Carsten viser først Elisabeth siden. Derefter aftaler de sammen, hvad der skal ske.
+
 ## Tråde
 - Tråd Nr. 19,01 blev lavet fra Nr. 0 (Projektstyring). Den vises ikke i Carstens trådliste.
 - Al tidligere snak om hjemmeside og kalender ligger i **Nr. 19 – Kalenderudkast 2027 til Elisabeth**.
