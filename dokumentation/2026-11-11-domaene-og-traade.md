@@ -8,6 +8,7 @@
 - Claude kan ikke selv åbne gallerieg.dk fra sin forbindelse. Carsten tester i sin browser.
 - 11. nov. 2026: Carsten testede gallerieg.dk → GitHub-fejl 404. Årsag: GitHub Pages var slukket.
 - 11. nov. 2026: Carsten tændte GitHub Pages (Settings → Pages → Branch: main, / (root) → Save). Custom domain viser www.gallerieg.dk og "DNS check successful".
+- 11. nov. 2026 kl. 11:56: Carsten ser forsiden på gallerieg.dk. Hjemmesiden virker! Browseren viser stadig "Ikke sikker".
 - Mangler: GitHub udsteder certifikat (minutter til et døgn). Derefter: sæt flueben i "Enforce HTTPS", og Carsten tester www.gallerieg.dk igen.
 
 ## Tråde
