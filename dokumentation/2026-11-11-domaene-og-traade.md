@@ -6,7 +6,9 @@
 - 30. okt. 2026: midlertidig forside "Ny hjemmeside under konstruktion" lagt op. Filen `CNAME` sat til `www.gallerieg.dk`.
 - 11. nov. 2026: BitTech (Djanin, sag #147814) har lavet DNS: 4 A-poster til GitHub Pages og CNAME `www` → carstengramsth-beep.github.io. Mail urørt.
 - Claude kan ikke selv åbne gallerieg.dk fra sin forbindelse. Carsten tester i sin browser.
-- Mangler: bekræft at siden vises, og slå "Enforce HTTPS" til i GitHub Pages.
+- 11. nov. 2026: Carsten testede gallerieg.dk → GitHub-fejl 404. Årsag: GitHub Pages var slukket.
+- 11. nov. 2026: Carsten tændte GitHub Pages (Settings → Pages → Branch: main, / (root) → Save). Custom domain viser www.gallerieg.dk og "DNS check successful".
+- Mangler: GitHub udsteder certifikat (minutter til et døgn). Derefter: sæt flueben i "Enforce HTTPS", og Carsten tester www.gallerieg.dk igen.
 
 ## Tråde
 - Tråd Nr. 19,01 blev lavet fra Nr. 0 (Projektstyring). Den vises ikke i Carstens trådliste.
