@@ -22,6 +22,13 @@
   - kladder af malerier, som Elisabeth ikke har godkendt til nettet.
 - Fotos af malerier og arbejdsfiler ligger i Carstens OneDrive (se `dokumentation/`).
 
+# Kig ALTID tilbage først (Carstens princip)
+
+- Før du svarer i en tråd: læs hele huskebogen OG de tidligere tråde om samme emne.
+- Brug `list_sessions` og `list_events` til at finde og læse gamle tråde (fx "Nr. 19").
+- Svar først, når du kender hele baggrunden. Sig aldrig "prøv" uden at forklare, hvad der allerede er lavet og hvornår.
+- Skriv i huskebogen, hvad Carsten er blevet bedt om at gøre, og hvad der mangler.
+
 # Fælles dokumentation (læs ved start af hver opgave)
 
 - Mappen `dokumentation/` er huskebogen for projektet.
