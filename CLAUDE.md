@@ -28,6 +28,7 @@
 - Brug `list_sessions` og `list_events` til at finde og læse gamle tråde (fx "Nr. 19").
 - Svar først, når du kender hele baggrunden. Sig aldrig "prøv" uden at forklare, hvad der allerede er lavet og hvornår.
 - Skriv i huskebogen, hvad Carsten er blevet bedt om at gøre, og hvad der mangler.
+- Vigtig viden skal stå BÅDE i huskebogen OG i tråden. Skriv den også direkte til Carsten i tråden, så han kan læse den dér.
 
 # Fælles dokumentation (læs ved start af hver opgave)
 
