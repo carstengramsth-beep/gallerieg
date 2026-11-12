@@ -36,11 +36,11 @@ DAGE = {
 MALERIER = {
     1: ("01.jpg", "“Vinterstemning”. Akryl 50 x 40 cm.", "50% 50%"),
     2: ("02.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "62% 50%"),
-    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "38% 50%"),
+    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "helt:rgb(223,237,252)"),
     4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "50% 50%"),
     5: ("05.jpg", "“Vilde, vidunderlige valmuer og markblomster”. Akryl 40 x 50 cm.", "50% 50%"),
     6: ("06.jpg", "“Valmueabstraktion”. Akryl 50 x 60 cm.", "50% 50%"),
-    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "50% 50%"),
+    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "58% 50%"),
     8: ("08.jpg", "“Solnedgang”. Akvarel.", "52% 50%"),
     9: ("09.jpg", "“Den første efterårsbuket”. Akvarel.", "50% 50%"),
     10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "35% 50%"),
@@ -97,7 +97,10 @@ def maaned(m):
         rows.append(f'<div class="r {klasse}"><span class=u>{UGEDAG[wd]}</span>'
                     f'<span class=d>{d}</span><span class=n>{navn}</span><span class=w>{uge}</span></div>')
     if fil:
-        billede = f'<div class=billede><img src="../img/{fil}" style="object-position:{pos}"></div>'
+        if pos.startswith("helt:"):
+            billede = f'<div class=billede style="background:#fff;display:flex;align-items:center;justify-content:center"><img src="../img/{fil}" style="width:90%;height:auto;box-shadow:0 3px 14px rgba(0,0,0,.28)"></div>'
+        else:
+            billede = f'<div class=billede><img src="../img/{fil}" style="object-position:{pos}"></div>'
     else:
         billede = '<div class="billede tom">Billede til juli kommer<small>Maleriet fotograferes igen</small></div>'
     body = (billede + f'<div class=tekst>{tekst}</div>'
@@ -150,8 +153,8 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Billederne i kalenderen er et udsnit af nogle af mine malerier. Målene på selve malerierne står under billedet, hvis det er malet på lærred.</p>
 <p>Jeg henter inspiration i mine omgivelser, steder jeg har været – og fri fantasi.</p>
 </div>
-<div class=f>Følg mig på instagram: galleri.eg og min hjemmeside: www.elisabeth.minisite.dk og hold dig opdateret om mine udstillinger i 2027.</div>
-<div class=tre><img src="../img/01.jpg"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
+<div class=f>Følg mig på instagram: galleri.eg og min hjemmeside: www.gallerieg.dk og hold dig opdateret om mine udstillinger i 2027.</div>
+<div class=tre><img src="../img/02.jpg" style="object-position:62% 50%"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
 <h2>Og lidt om mig selv.</h2>
 <div class=cols>
 <p>Jeg maler fortrinsvis landskaber, himmel/hav ekspressivt og med abstraktioner, men også huse, ansigter, mennesker, blomster – også med abstraktioner. Jeg har i løbet af det sidste års tid malet en del akvarel og med pastelkridt – har også været på kursus i det.</p>
@@ -159,7 +162,7 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Jeg har udstillet mine malerier forskellige steder – både fælles udstillinger og alene. Jeg har udstillet gennem Stevns Kunstforening nogle gange, bl.a. på ”Kulturloftet” i Store Heddinge. Derudover har jeg udstillet flere steder på Stevns, i Køge, i Greve, i Herlev, i Brøndby, på CPH Art Space på Docken i København, Byens hus i Gentofte, Galleri Pialeh Frederiksberg, Sognegården i Stenløse, Sjællands Universitets Hospital i Køge, X-Porten i Hundested, Galleri Lowlands, Rørholmsgade København.</p>
 <p>Jeg laver små skulpturer, blomster og fugle i stentøj.</p>
 </div>
-<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • elisabeth.minisite.dk • instagram: galleri.eg</div>
+<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • www.gallerieg.dk • instagram: galleri.eg</div>
 </div>"""
     side("s-03.html", 1181, 1181, css, body)
 

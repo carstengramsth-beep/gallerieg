@@ -20,7 +20,7 @@ Billederne i kalenderen er et udsnit af nogle af mine malerier. Målene på selv
 
 Jeg henter inspiration i mine omgivelser, steder jeg har været – og fri fantasi.
 
-Følg mig på instagram: galleri.eg og min hjemmeside: www.elisabeth.minisite.dk og hold dig opdateret om mine udstillinger i 2027.
+Følg mig på instagram: galleri.eg og min hjemmeside: www.gallerieg.dk og hold dig opdateret om mine udstillinger i 2027.
 
 **Og lidt om mig selv.**
 
@@ -32,7 +32,7 @@ Jeg har udstillet mine malerier forskellige steder – både fælles udstillinge
 
 Jeg laver små skulpturer, blomster og fugle i stentøj.
 
-Bundlinje: Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • elisabeth.minisite.dk • instagram: galleri.eg
+Bundlinje: Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • www.gallerieg.dk • instagram: galleri.eg
 
 ## Side 4–15 – Månederne
 

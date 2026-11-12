@@ -20,3 +20,4 @@
   - Carsten taler med Ole om nye fotos af malerierne (mindst ca. 3.600 punkter brede).
   - Afvent: spørgsmål til Dantryk om udfald, farveprofil, guld i logo og plads til wire. Carsten skriver først, når billederne er aftalt.
 - Kalenderen uddeles til venner og bekendte og sælges af Elisabeth. **Ingen familiemærkedage** – kun helligdage og officielle mærkedage.
+- 12. nov. 2026: Udkast 4 med nye fotos af januar–september. Marts er nu bambus med fugl (sumi-e) og vises helt, monteret på hvidt. Tekstsiden viser februar, november og december. Hjemmeside på tekstsiden er nu www.gallerieg.dk. Oktober–december og forside mangler nye fotos.
