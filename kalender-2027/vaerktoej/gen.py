@@ -52,6 +52,13 @@ FONTS = """
 @font-face{font-family:RC;src:url(../fonts/rc-regular.ttf);font-weight:400}
 @font-face{font-family:RC;src:url(../fonts/rc-bold.ttf);font-weight:700}
 @font-face{font-family:RC;src:url(../fonts/rc-italic.ttf);font-style:italic}
+@font-face{font-family:Pinyon;src:url(../fonts/pinyon.ttf)}
+.lg{position:absolute;width:520px;height:600px;transform-origin:0 0;--g:#B4903E}
+.lg .e,.lg .g{position:absolute;font:310px/1 Pinyon;color:var(--g)}
+.lg .e{left:140px;top:0}
+.lg .g{left:215px;top:125px}
+.lg .gal{position:absolute;left:0;right:0;top:375px;text-align:center;font:190px/1 Pinyon;color:#111}
+.lg .str{position:absolute;left:30px;right:10px;top:580px;height:16px;background:var(--g);clip-path:polygon(0 0,100% 55%,100% 70%,0 100%)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#fff;-webkit-font-smoothing:antialiased}
 """
@@ -80,7 +87,7 @@ MDR_CSS = """
 .r.l{background:#ececec}.r.s{background:#d2d2d2}
 .r .u{width:22px}.r .d{width:26px;text-align:right;margin-right:12px}
 .r .n{flex:1}.r .w{width:30px;text-align:right}
-.logo{position:absolute;left:1030px;top:2215px;width:105px}
+.logo{left:1025px;top:2200px;transform:scale(.21)}
 """
 
 
@@ -106,7 +113,7 @@ def maaned(m):
     body = (billede + f'<div class=tekst>{tekst}</div>'
             f'<div class=titel><span>{MDR[m-1]}</span><span>2027</span></div>'
             f'<div class="kol k1">{"".join(rows[:17])}</div><div class="kol k2">{"".join(rows[17:])}</div>'
-            '<img class=logo src="../img/logo.png">')
+            '<div class="lg logo"><div class=e>E</div><div class=g>G</div><div class=gal>Galleri</div><div class=str></div></div>')
     side(f"s-{m+3:02d}.html", 1181, 2362, MDR_CSS, body)
 
 
@@ -118,7 +125,7 @@ def forside():
     side("s-01.html", 1181, 1575, css,
          '<div class=b><img src="../img/forside.jpg"></div>'
          '<div class=t>Fra serien “Damer for sjov”. Akryl 40 x 60 cm.</div>'
-         '<img class=logo src="../img/logo.png">')
+         '<div class="lg logo"><div class=e>E</div><div class=g>G</div><div class=gal>Galleri</div><div class=str></div></div>')
 
 
 def omslag():
