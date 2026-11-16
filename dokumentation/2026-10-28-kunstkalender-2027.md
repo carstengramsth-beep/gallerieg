@@ -21,3 +21,4 @@
   - Afvent: spørgsmål til Dantryk om udfald, farveprofil, guld i logo og plads til wire. Carsten skriver først, når billederne er aftalt.
 - Kalenderen uddeles til venner og bekendte og sælges af Elisabeth. **Ingen familiemærkedage** – kun helligdage og officielle mærkedage.
 - 12. nov. 2026: Udkast 4 med nye fotos af januar–september. Marts er nu bambus med fugl (sumi-e) og vises helt, monteret på hvidt. Tekstsiden viser februar, november og december. Hjemmeside på tekstsiden er nu www.gallerieg.dk. Oktober–december og forside mangler nye fotos.
+- 16. nov. 2026: Endelige fotos ligger i OneDrive: "Kunstkalender billeder om 2027/Nye billedsamling 12.11.26 - med Ole Kamera/bILLEDER KLAR TIL KALENDER 27/kalenderklar 2026". **Forbladet (forside 30×40) udgår** – leverandøren kan ikke udstanse. Kalenderen = omslag + tekstside + 12 måneder. Januar og juni er stadig gamle mobilfotos i lav opløsning. December-filen (9,9 MB) er for stor til at hente.
