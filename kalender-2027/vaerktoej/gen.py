@@ -40,11 +40,11 @@ MALERIER = {
     4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "50% 50%"),
     5: ("05.jpg", "“Vilde, vidunderlige valmuer og markblomster”. Akryl 40 x 50 cm.", "50% 50%"),
     6: ("06.jpg", "“Valmueabstraktion”. Akryl 50 x 60 cm.", "50% 50%"),
-    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "58% 50%"),
-    8: ("08.jpg", "“Solnedgang”. Akvarel.", "52% 50%"),
+    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "helt:"),
+    8: ("08.jpg", "“Solnedgang”. Akvarel.", "helt:"),
     9: ("09.jpg", "“Den første efterårsbuket”. Akvarel.", "50% 50%"),
-    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "35% 50%"),
-    11: ("11.jpg", "“Himmel og hav”. Akryl 50 x 40 cm.", "20% 50%"),
+    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "helt:"),
+    11: ("11.jpg", "“Himmel og hav”. Akryl 50 x 40 cm.", "28% 50%"),
     12: ("12.jpg", "“Himmel og hav”. Akryl 50 x 60 cm.", "50% 50%"),
 }
 
