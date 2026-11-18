@@ -41,3 +41,7 @@
   - Tekstside: billede 1 er nu januar; Instagram fjernet; bundlinjen midtstillet.
   - Februar: brun stribe fjernet, hele højre stamme med.
   - Leverance: 14 løse trykfiler (forside, tekstside, 12 måneder) med skæremærker. Bagside = sort karton fra trykkeriet. Plus en "samlet korrektur" side for side til leverandøren.
+- **Procedure for korrektur (aftalt 18. nov. 2026):**
+  1. Kalendersiden https://claude.ai/artifact/EmUE5w131qJ5DWU95JZMJx er sat til "Anyone with the link" (Carsten gør det én gang via Del).
+  2. Ved hvert nyt udkast opdateres SAMME side (samme link), og Claude sender mail til cg@gallerieg.dk med emnet "Kunstkalender 2027 – udkast X" og linket.
+  3. PDF'er (A3-prøvetryk, samlet korrektur, trykfiler) hentes fra tråden og gemmes af Carsten i OneDrive: "Skrivebord/Kunstkalender billeder om 2027/Korrektur". Claude kan kun uploade filer under 1 MB.
