@@ -44,6 +44,14 @@ async function lavSide(browser, navn, ud) {
       s.left = l + 'px'; s.top = t + 'px'; s.width = w + 'px'; s.height = h + 'px';
       s.right = 'auto'; s.bottom = 'auto'; s.inset = 'auto';
       s.left = l + 'px'; s.top = t + 'px';
+      if (el.classList.contains('r7')) {
+        const p = 28;
+        s.boxSizing = 'border-box';
+        s.paddingLeft = (p + (sider.includes('l') && r.left <= 0.5 ? b : 0)) + 'px';
+        s.paddingTop = (p + (sider.includes('t') && r.top <= 0.5 ? b : 0)) + 'px';
+        s.paddingRight = (p + (sider.includes('r') && r.left + r.width >= wpx - 0.5 ? b : 0)) + 'px';
+        s.paddingBottom = p + 'px';
+      }
     };
     document.querySelectorAll('.billede').forEach(el => ud(el, 'ltr'));
     document.querySelectorAll('.b').forEach(el => ud(el, 'ltrb'));

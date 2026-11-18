@@ -35,17 +35,17 @@ DAGE = {
 # måned: (billedfil, billedtekst, beskæring)
 MALERIER = {
     1: ("01.jpg", "“Vinterstemning”. Akryl 50 x 40 cm.", "50% 50%"),
-    2: ("02r.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "ramme:#8C9DB0"),
-    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "ramme:#8E9096"),
+    2: ("02r.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "r7:#8C9DB0:88% 50%"),
+    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "r7top:#8E9096"),
     4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "50% 50%"),
     5: ("05.jpg", "“Vilde, vidunderlige valmuer og markblomster”. Akryl 40 x 50 cm.", "50% 50%"),
     6: ("06.jpg", "“Valmueabstraktion”. Akryl 50 x 60 cm.", "50% 50%"),
-    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "ramme:#5B6F8F"),
-    8: ("08.jpg", "“Solnedgang”. Akvarel.", "ramme:#6F7A8C"),
-    9: ("09.jpg", "“Den første efterårsbuket”. Akvarel.", "50% 50%"),
-    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "ramme:#8A8FA6"),
+    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "52% 50%"),
+    8: ("08.jpg", "“Solnedgang”. Akvarel.", "55% 50%"),
+    9: ("09.jpg", "“Den første efterårsbuket”. Akvarel.", "r7:#A9876A:50% 30%"),
+    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "r7:#8A8FA6:12% 50%"),
     11: ("11.jpg", "“Himmel og hav”. Akryl 50 x 40 cm.", "28% 50%"),
-    12: ("12.jpg", "“Himmel og hav”. Akryl 50 x 60 cm.", "50% 50%"),
+    12: ("12r.jpg", "“Himmel og hav”. Akryl 50 x 60 cm.", "50% 50%"),
 }
 
 FONTS = """
@@ -104,7 +104,15 @@ def maaned(m):
         rows.append(f'<div class="r {klasse}"><span class=u>{UGEDAG[wd]}</span>'
                     f'<span class=d>{d}</span><span class=n>{navn}</span><span class=w>{uge}</span></div>')
     if fil:
-        if pos.startswith("ramme:"):
+        if pos.startswith("r7:"):
+            _, farve, op = pos.split(":", 2)
+            billede = (f'<div class="billede r7" style="background:{farve};padding:28px">'
+                       f'<img src="../img/{fil}" style="width:100%;height:100%;object-fit:cover;object-position:{op};display:block"></div>')
+        elif pos.startswith("r7top:"):
+            farve = pos.split(":", 1)[1]
+            billede = (f'<div class="billede r7" style="background:{farve};padding:28px">'
+                       f'<div style="background:#fff;width:100%;height:100%"><img src="../img/{fil}" style="width:100%;height:auto;display:block"></div></div>')
+        elif pos.startswith("ramme:"):
             billede = (f'<div class=billede style="background:{pos[6:]};display:flex;align-items:center;justify-content:center;padding:70px">'
                        f'<div style="background:#fff;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.25);max-width:100%;max-height:100%;display:flex">'
                        f'<img src="../img/{fil}" style="max-width:1009px;max-height:1399px;width:auto;height:auto;object-fit:contain;display:block"></div></div>')
@@ -134,9 +142,9 @@ def forside():
 
 def omslag():
     css = """
-.b{position:absolute;inset:0}.b img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.y{position:absolute;left:0;right:0;bottom:150px;text-align:center;font:400 330px Inter,sans-serif;
-  color:rgba(238,236,248,.9);letter-spacing:-6px}"""
+.b{position:absolute;inset:0;overflow:hidden}.b img{position:absolute;width:116%;height:auto;left:-3%;top:0}
+.y{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:800 400px Inter,sans-serif;
+  color:#B4903E;letter-spacing:-12px;line-height:1}"""
     side("s-02.html", 1181, 2362, css,
          '<div class=b><img src="../img/omslag.jpg"></div><div class=y>2027</div>')
 

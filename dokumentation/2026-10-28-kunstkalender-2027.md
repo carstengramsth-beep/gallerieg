@@ -45,3 +45,10 @@
   1. Kalendersiden https://claude.ai/artifact/EmUE5w131qJ5DWU95JZMJx er sat til "Anyone with the link" (Carsten gør det én gang via Del).
   2. Ved hvert nyt udkast opdateres SAMME side (samme link), og Claude sender mail til cg@gallerieg.dk med emnet "Kunstkalender 2027 – udkast X" og linket.
   3. PDF'er (A3-prøvetryk, samlet korrektur, trykfiler) hentes fra tråden og gemmes af Carsten i OneDrive: "Skrivebord/Kunstkalender billeder om 2027/Korrektur". Claude kan kun uploade filer under 1 MB.
+- 19. nov. 2026: Udkast 9 efter Carsten og Elisabeths fælles gennemgang af print (udkast 8).
+  - **Regel: Fast 7 mm farvet ramme** inden for topbilledet 30 × 40 cm, ingen hvid kant: februar (#8C9DB0), marts (#8E9096, billedet øverst i fuld bredde, hvidt felt under), september (#A9876A), oktober (#8A8FA6). Rammen er 7 mm efter beskæring (tryk.js lægger udfaldet til).
+  - Uden ramme, beskåret til kant: januar, april, maj, juni, juli, august, november, december.
+  - Forside: illustration forstørret ca. 16 % ("sat op"); "2027" fed (Inter 800) i guld #B4903E som i 2024-kalenderen.
+  - November: træet i venstre side gjort sort. December: sort kant i toppen skåret væk.
+  - Juli og august er nu beskåret til højformat og har kun ca. 120 dpi – kan ses i tryk.
+  - Næste: når godkendt → endelig kontrolversion med siderne vist i færdigt beskåret format.
