@@ -27,3 +27,10 @@
 - 16. nov. 2026: Guld i logoet trykkes på Iridesse som **særskilt specialfarve**. Afventer fra Dantryk: navnet på farven (fx "Gold"), om hele logoet skal være guld, og om guld ligger under/over CMYK. Derefter laves logoet som vektor i specialfarve i trykfilerne.
 - 16. nov. 2026: Udkast 6. Nyt logo i sort + guld (skrift Pinyon Script; guld vist som #B4903E, skal være specialfarve/pantoneguld i tryk). Logo-filer i `logo/`. De to kvinder på omslaget er gjort sorte (kun mørke, farveløse områder ændret). Carsten laver intern korrektur, derefter sidste korrektur med Elisabeth.
 - 16. nov. 2026: Udkast 7. Begge kvinder på omslaget er fyldt helt sorte (lærredsstruktur lukket). Originalfotoet gemmes som forside-original.jpg i arbejdsmappen.
+- 18. nov. 2026: Carstens håndskrevne korrektur af udkast 7 (scannet). "BM" = antal bemærkninger.
+  - OK: januar, maj, juni, september, november, december.
+  - Omslag: beskåret for meget i venstre side (vis mere).
+  - Tekstside: Instagram fjernes fra bundlinjen; bundlinjen midtstilles? "Skal være samme v." ved birkebilledet – uafklaret.
+  - Marts: billede lidt større. Juli, august, oktober: billede større + billedtekst lige under billedet.
+  - Uafklaret: februar ("Hele stammen med", tekst øverst, bølget streg ved brun kant) og april (+, +?, ?, ring om billedtekst).
+  - Afventer Elisabeths svar på de uafklarede punkter.
