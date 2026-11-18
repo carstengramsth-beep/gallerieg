@@ -35,3 +35,9 @@
 - Mappen `dokumentation/` er huskebogen for projektet.
 - Læs `dokumentation/index.json` og de nyeste noter, før du går i gang.
 - Når du har lavet noget vigtigt: skriv en kort note `ÅÅÅÅ-MM-DD-emne.md` og tilføj den øverst i `dokumentation/index.json`.
+
+# Korrektur til Carsten — fast måde (aftalt 18. nov. 2026)
+
+- Skriv i tråden: "Her er korrekturen – udkast X" + et link, han kan trykke på.
+- Åbn samtidig kalendersiden (Artifact "open") og send den samlede korrektur som fil med display "render", så den åbner med det samme.
+- Bed ham IKKE om at hente filer, flytte filer, bruge OneDrive eller ændre deling. Det er for svært.
