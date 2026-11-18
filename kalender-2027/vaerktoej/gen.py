@@ -35,15 +35,15 @@ DAGE = {
 # måned: (billedfil, billedtekst, beskæring)
 MALERIER = {
     1: ("01.jpg", "“Vinterstemning”. Akryl 50 x 40 cm.", "50% 50%"),
-    2: ("02.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "62% 50%"),
-    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "helt:rgb(223,237,252)"),
+    2: ("02r.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "ramme:#8C9DB0"),
+    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "ramme:#8E9096"),
     4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "50% 50%"),
     5: ("05.jpg", "“Vilde, vidunderlige valmuer og markblomster”. Akryl 40 x 50 cm.", "50% 50%"),
     6: ("06.jpg", "“Valmueabstraktion”. Akryl 50 x 60 cm.", "50% 50%"),
-    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "helt:"),
-    8: ("08.jpg", "“Solnedgang”. Akvarel.", "helt:"),
+    7: ("07.jpg", "“Aftenstemning”. Softpastel.", "ramme:#5B6F8F"),
+    8: ("08.jpg", "“Solnedgang”. Akvarel.", "ramme:#6F7A8C"),
     9: ("09.jpg", "“Den første efterårsbuket”. Akvarel.", "50% 50%"),
-    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "helt:"),
+    10: ("10.jpg", "“Efterårsstemning”. Akvarel.", "ramme:#8A8FA6"),
     11: ("11.jpg", "“Himmel og hav”. Akryl 50 x 40 cm.", "28% 50%"),
     12: ("12.jpg", "“Himmel og hav”. Akryl 50 x 60 cm.", "50% 50%"),
 }
@@ -104,7 +104,11 @@ def maaned(m):
         rows.append(f'<div class="r {klasse}"><span class=u>{UGEDAG[wd]}</span>'
                     f'<span class=d>{d}</span><span class=n>{navn}</span><span class=w>{uge}</span></div>')
     if fil:
-        if pos.startswith("helt:"):
+        if pos.startswith("ramme:"):
+            billede = (f'<div class=billede style="background:{pos[6:]};display:flex;align-items:center;justify-content:center;padding:70px">'
+                       f'<div style="background:#fff;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.25);max-width:100%;max-height:100%;display:flex">'
+                       f'<img src="../img/{fil}" style="max-width:1009px;max-height:1399px;width:auto;height:auto;object-fit:contain;display:block"></div></div>')
+        elif pos.startswith("helt:"):
             billede = f'<div class=billede style="background:#fff;display:flex;align-items:center;justify-content:center"><img src="../img/{fil}" style="width:90%;height:auto;box-shadow:0 3px 14px rgba(0,0,0,.28)"></div>'
         else:
             billede = f'<div class=billede><img src="../img/{fil}" style="object-position:{pos}"></div>'
@@ -131,10 +135,10 @@ def forside():
 def omslag():
     css = """
 .b{position:absolute;inset:0}.b img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
-.y{position:absolute;left:0;right:0;bottom:250px;text-align:center;font:400 330px Inter,sans-serif;
+.y{position:absolute;left:0;right:0;bottom:150px;text-align:center;font:400 330px Inter,sans-serif;
   color:rgba(238,236,248,.9);letter-spacing:-6px}"""
     side("s-02.html", 1181, 2362, css,
-         '<div class=b><img src="../img/forside.jpg"></div><div class=y>2027</div>')
+         '<div class=b><img src="../img/omslag.jpg"></div><div class=y>2027</div>')
 
 
 def tekstside():
@@ -151,7 +155,7 @@ h1{font:800 70px Inter;color:#8e6aa5;letter-spacing:-1px}
 h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 .cols{margin-top:6px;columns:2;column-gap:36px;font:400 13.5px Inter;line-height:1.42}
 .cols p{margin-bottom:9px}
-.fod{position:absolute;bottom:0;font:400 15px Inter;color:#999}"""
+.fod{position:absolute;bottom:0;left:0;right:0;text-align:center;font:400 15px Inter;color:#999}"""
     body = """<div class=p>
 <h1>Kunstkalender 2027</h1>
 <div class=intro>
@@ -161,7 +165,7 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Jeg henter inspiration i mine omgivelser, steder jeg har været – og fri fantasi.</p>
 </div>
 <div class=f>Følg mig på instagram: galleri.eg og min hjemmeside: www.gallerieg.dk og hold dig opdateret om mine udstillinger i 2027.</div>
-<div class=tre><img src="../img/02.jpg" style="object-position:62% 50%"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
+<div class=tre><img src="../img/01.jpg"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
 <h2>Og lidt om mig selv.</h2>
 <div class=cols>
 <p>Jeg maler fortrinsvis landskaber, himmel/hav ekspressivt og med abstraktioner, men også huse, ansigter, mennesker, blomster – også med abstraktioner. Jeg har i løbet af det sidste års tid malet en del akvarel og med pastelkridt – har også været på kursus i det.</p>
@@ -169,7 +173,7 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Jeg har udstillet mine malerier forskellige steder – både fælles udstillinger og alene. Jeg har udstillet gennem Stevns Kunstforening nogle gange, bl.a. på ”Kulturloftet” i Store Heddinge. Derudover har jeg udstillet flere steder på Stevns, i Køge, i Greve, i Herlev, i Brøndby, på CPH Art Space på Docken i København, Byens hus i Gentofte, Galleri Pialeh Frederiksberg, Sognegården i Stenløse, Sjællands Universitets Hospital i Køge, X-Porten i Hundested, Galleri Lowlands, Rørholmsgade København.</p>
 <p>Jeg laver små skulpturer, blomster og fugle i stentøj.</p>
 </div>
-<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • www.gallerieg.dk • instagram: galleri.eg</div>
+<div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • www.gallerieg.dk</div>
 </div>"""
     side("s-03.html", 1181, 1181, css, body)
 

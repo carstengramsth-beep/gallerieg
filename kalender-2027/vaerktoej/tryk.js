@@ -17,7 +17,7 @@ const SIDER = {
 };
 for (let i = 4; i <= 15; i++) SIDER['s-' + String(i).padStart(2, '0')] = [1181, 2362, 300, 600];
 
-const NAVNE = { 's-02': 'Omslag', 's-03': 'Tekstside' };
+const NAVNE = { 's-02': 'Forside', 's-03': 'Tekstside' };
 const MDR = ['Januar','Februar','Marts','April','Maj','Juni','Juli','August','September','Oktober','November','December'];
 for (let i = 4; i <= 15; i++) NAVNE['s-' + String(i).padStart(2, '0')] = MDR[i - 4];
 

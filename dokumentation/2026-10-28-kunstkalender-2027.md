@@ -34,3 +34,10 @@
   - Marts: billede lidt større. Juli, august, oktober: billede større + billedtekst lige under billedet.
   - Uafklaret: februar ("Hele stammen med", tekst øverst, bølget streg ved brun kant) og april (+, +?, ?, ring om billedtekst).
   - Afventer Elisabeths svar på de uafklarede punkter.
+- 18. nov. 2026: Udkast 8 efter Elisabeths håndskrevne svar.
+  - **Det hedder "forside", ikke "omslag"** (et omslag har altid en bagside).
+  - **Regel: Topbilledet er altid 30 × 40 cm.** Passer maleriet ikke, får det en farvet ramme + hvid kant (som i kalender 2025). Rammer: februar #8C9DB0, marts #8E9096, juli #5B6F8F, august #6F7A8C, oktober #8A8FA6.
+  - Forside: hele maleriets bredde vises, baggrunden forlænget nedad; "2027" står under fødderne.
+  - Tekstside: billede 1 er nu januar; Instagram fjernet; bundlinjen midtstillet.
+  - Februar: brun stribe fjernet, hele højre stamme med.
+  - Leverance: 14 løse trykfiler (forside, tekstside, 12 måneder) med skæremærker. Bagside = sort karton fra trykkeriet. Plus en "samlet korrektur" side for side til leverandøren.
