@@ -52,3 +52,5 @@
   - November: træet i venstre side gjort sort. December: sort kant i toppen skåret væk.
   - Juli og august er nu beskåret til højformat og har kun ca. 120 dpi – kan ses i tryk.
   - Næste: når godkendt → endelig kontrolversion med siderne vist i færdigt beskåret format.
+- 19. nov. 2026: Carsten bekræfter: forside "sat op" = forstørret, "2027" i guld (som tidligere år). Juli/august: afvent print – evt. bredere farvet kant top/bund. Oktober: Elisabeth afgør beskæring.
+  Plan: (1) kommentarer til print af udkast 9 → (2) rettelser → (3) kontrolversion i færdigt beskåret format ("PRINT DENNE") → (4) 14 endelige trykfiler.
