@@ -54,3 +54,4 @@
   - Næste: når godkendt → endelig kontrolversion med siderne vist i færdigt beskåret format.
 - 19. nov. 2026: Carsten bekræfter: forside "sat op" = forstørret, "2027" i guld (som tidligere år). Juli/august: afvent print – evt. bredere farvet kant top/bund. Oktober: Elisabeth afgør beskæring.
   Plan: (1) kommentarer til print af udkast 9 → (2) rettelser → (3) kontrolversion i færdigt beskåret format ("PRINT DENNE") → (4) 14 endelige trykfiler.
+- 19. nov. 2026 (Elisabeths kommentarer til udkast 9): Forside har fået billedtekst nederst til venstre ("Fra serien “Damer for sjov”. Akryl 40 x 60 cm.") og logo nederst til højre.

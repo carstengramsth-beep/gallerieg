@@ -144,9 +144,13 @@ def omslag():
     css = """
 .b{position:absolute;inset:0;overflow:hidden}.b img{position:absolute;width:116%;height:auto;left:-3%;top:0}
 .y{position:absolute;left:0;right:0;bottom:120px;text-align:center;font:800 400px Inter,sans-serif;
-  color:#B4903E;letter-spacing:-12px;line-height:1}"""
+  color:#B4903E;letter-spacing:-12px;line-height:1}
+.t{position:absolute;left:60px;bottom:60px;font:italic 400 22px RC;color:#2c3440}
+.flogo{left:1010px;top:2180px;transform:scale(.24)}"""
     side("s-02.html", 1181, 2362, css,
-         '<div class=b><img src="../img/omslag.jpg"></div><div class=y>2027</div>')
+         '<div class=b><img src="../img/omslag.jpg"></div><div class=y>2027</div>'
+         '<div class=t>Fra serien “Damer for sjov”. Akryl 40 x 60 cm.</div>'
+         '<div class="lg flogo"><div class=e>E</div><div class=g>G</div><div class=gal>Galleri</div><div class=str></div></div>')
 
 
 def tekstside():
