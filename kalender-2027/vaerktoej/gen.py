@@ -36,8 +36,8 @@ DAGE = {
 MALERIER = {
     1: ("01.jpg", "“Vinterstemning”. Akryl 50 x 40 cm.", "50% 50%"),
     2: ("02r.jpg", "Inspiration “Birketræer i vinterdragt”. Akryl 50 x 40 cm.", "r7:#8C9DB0:88% 50%"),
-    3: ("03.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "r7top:#8E9096"),
-    4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "50% 50%"),
+    3: ("03a.jpg", "“Japansk Sumi-e kalligrafi”. Sort tusch og akvarel.", "r7:#8E9096:50% 50%"),
+    4: ("04.jpg", "“Dame i forventningsstemning”. Akryl 40 x 50 cm.", "r7:#AFC3DC:50% 45%"),
     5: ("05.jpg", "“Vilde, vidunderlige valmuer og markblomster”. Akryl 40 x 50 cm.", "50% 50%"),
     6: ("06.jpg", "“Valmueabstraktion”. Akryl 50 x 60 cm.", "50% 50%"),
     7: ("07.jpg", "“Aftenstemning”. Softpastel.", "52% 50%"),
@@ -108,6 +108,15 @@ def maaned(m):
             _, farve, op = pos.split(":", 2)
             billede = (f'<div class="billede r7" style="background:{farve};padding:28px">'
                        f'<img src="../img/{fil}" style="width:100%;height:100%;object-fit:cover;object-position:{op};display:block"></div>')
+        elif pos.startswith("r7note:"):
+            farve = pos.split(":", 1)[1]
+            linjer = "".join('<div style="height:62px;border-bottom:1.5px solid #c9cbd0"></div>' for _ in range(9))
+            billede = (f'<div class="billede r7" style="background:{farve};padding:28px">'
+                       f'<div style="display:flex;flex-direction:column;height:100%;gap:28px">'
+                       f'<div style="flex:0 0 40px"></div>'
+                       f'<img src="../img/{fil}" style="width:100%;height:auto;display:block;border-radius:22px">'
+                       f'<div style="flex:1;background:#fff;border-radius:22px;padding:10px 50px 0;overflow:hidden">{linjer}</div>'
+                       f'</div></div>')
         elif pos.startswith("r7top:"):
             farve = pos.split(":", 1)[1]
             billede = (f'<div class="billede r7" style="background:{farve};padding:28px">'
@@ -176,7 +185,7 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Billederne i kalenderen er et udsnit af nogle af mine malerier. Målene på selve malerierne står under billedet, hvis det er malet på lærred.</p>
 <p>Jeg henter inspiration i mine omgivelser, steder jeg har været – og fri fantasi.</p>
 </div>
-<div class=f>Følg mig på instagram: galleri.eg og min hjemmeside: www.gallerieg.dk og hold dig opdateret om mine udstillinger i 2027.</div>
+<div class=f>Følg mig på min hjemmeside: www.gallerieg.dk og hold dig opdateret om mine udstillinger i 2027.</div>
 <div class=tre><img src="../img/01.jpg"><img src="../img/11.jpg" style="object-position:30% 50%"><img src="../img/12.jpg"></div>
 <h2>Og lidt om mig selv.</h2>
 <div class=cols>

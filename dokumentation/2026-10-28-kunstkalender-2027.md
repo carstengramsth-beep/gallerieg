@@ -55,3 +55,4 @@
 - 19. nov. 2026: Carsten bekræfter: forside "sat op" = forstørret, "2027" i guld (som tidligere år). Juli/august: afvent print – evt. bredere farvet kant top/bund. Oktober: Elisabeth afgør beskæring.
   Plan: (1) kommentarer til print af udkast 9 → (2) rettelser → (3) kontrolversion i færdigt beskåret format ("PRINT DENNE") → (4) 14 endelige trykfiler.
 - 19. nov. 2026 (Elisabeths kommentarer til udkast 9): Forside har fået billedtekst nederst til venstre ("Fra serien “Damer for sjov”. Akryl 40 x 60 cm.") og logo nederst til højre.
+- 19. nov. 2026: **Marts = udgave A** (godkendt af Carsten): maleriet forlænget nedad i grå 7 mm ramme (lavet i tråden "Kommentarer på tråd 19", artifact-fil sider/s-06b.jpg). Billedfeltet er gemt som img/03a.jpg i arbejdsmappen og bruges i gen.py. Udgave B (skrivefelt) er droppet. April: lys blå 7 mm ramme (#AFC3DC). Tekstside: Instagram fjernet fra teksten. Forside: billedtekst + logo.
