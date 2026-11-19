@@ -57,3 +57,8 @@
 - 19. nov. 2026 (Elisabeths kommentarer til udkast 9): Forside har fået billedtekst nederst til venstre ("Fra serien “Damer for sjov”. Akryl 40 x 60 cm.") og logo nederst til højre.
 - 19. nov. 2026: **Marts = udgave A** (godkendt af Carsten): maleriet forlænget nedad i grå 7 mm ramme (lavet i tråden "Kommentarer på tråd 19", artifact-fil sider/s-06b.jpg). Billedfeltet er gemt som img/03a.jpg i arbejdsmappen og bruges i gen.py. Udgave B (skrivefelt) er droppet. April: lys blå 7 mm ramme (#AFC3DC). Tekstside: Instagram fjernet fra teksten. Forside: billedtekst + logo.
 - 19. nov. 2026: Udkast 11. Juli: 7 mm ramme i gylden #FCBD76 (Carstens farveudsnit) (farven mellem træerne). August: 7 mm ramme i laks #E8988A (farven om solen), hvid papirkant skåret væk (img/08r.jpg). September–december godkendt. **Alle måneder er nu kommenteret.** Næste: print af udkast 11 → kontrolversion i færdigt beskåret format → 14 trykfiler.
+
+## 19. nov. 2026 – minikalendere (kontrol af format)
+- Fil: "PRINT DENNE: 4 minikalendere – A3 liggende" (14 ark). 4 minier (9,5 × 19 cm) på række på hvert ark.
+- Alle ark printes og skæres ens. Kun tekstsiden (ark 2) har røde mærker: den forkortes bagefter, så den passer i forhold (1:1).
+- Carsten har godkendt måden ("præcis"). Versionen "alle lige store" uden røde mærker skal IKKE bruges.
