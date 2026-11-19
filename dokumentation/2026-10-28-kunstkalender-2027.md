@@ -62,3 +62,5 @@
 - Fil: "PRINT DENNE: 4 minikalendere – A3 liggende" (14 ark). 4 minier (9,5 × 19 cm) på række på hvert ark.
 - Alle ark printes og skæres ens. Kun tekstsiden (ark 2) har røde mærker: den forkortes bagefter, så den passer i forhold (1:1).
 - Carsten har godkendt måden ("præcis"). Versionen "alle lige store" uden røde mærker skal IKKE bruges.
+- RETTET samme dag: Carsten så, at der manglede farve ud over skærelinjen (udfald/bleed). Ny fil: "PRINT DENNE: 4 minikalendere – med farve ud over skærelinjen". 3 mm farve rundt om hver mini, også mellem dem. Alle 14 sider tjekket. Kun denne fil skal bruges.
+- Carsten prøver nu at printe og skære. Prøven viser, om der skal mere udfald til.
