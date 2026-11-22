@@ -176,7 +176,8 @@ h1{font:800 70px Inter;color:#8e6aa5;letter-spacing:-1px}
 h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 .cols{margin-top:6px;columns:2;column-gap:36px;font:400 13.5px Inter;line-height:1.42}
 .cols p{margin-bottom:9px}
-.fod{position:absolute;bottom:0;left:0;right:0;text-align:center;font:400 15px Inter;color:#999}"""
+.fod{position:absolute;bottom:0;left:0;right:0;text-align:center;font:400 15px Inter;color:#999}
+.tlogo{left:1025px;top:1019px;transform:scale(.21)}"""
     body = """<div class=p>
 <h1>Kunstkalender 2027</h1>
 <div class=intro>
@@ -195,7 +196,8 @@ h2{margin-top:26px;font:700 21px Inter;color:#8e6aa5}
 <p>Jeg laver små skulpturer, blomster og fugle i stentøj.</p>
 </div>
 <div class=fod>Elisabeth Gram • Store Heddinge • 20604377 • eg@gallerieg.dk • www.gallerieg.dk</div>
-</div>"""
+</div>
+<div class="lg tlogo"><div class=e>E</div><div class=g>G</div><div class=gal>Galleri</div><div class=str></div></div>"""
     side("s-03.html", 1181, 1181, css, body)
 
 

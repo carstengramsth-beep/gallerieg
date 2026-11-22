@@ -71,3 +71,6 @@
 - Endelige trykfiler lavet: GalleriEG-2027-01-Forside.pdf … 14-December.pdf (3 mm udfald, skæremærker). Ligger i Claudes arbejdsmappe; sendes, når Carsten beder om dem.
 - Mangler stadig svar fra Dantryk: navn på guld-specialfarven, indbinding.
 - Trykinstruktion rettet: sort bagside (nr. 15, trykkes ikke), Carsten som kontaktperson, udfald vist på alle små sider (rød stiplet = skærelinje, blå = kant af udfald, skæremærker uden for udfald) + 3 forstørrede hjørner. Carsten: "det viser producenten, at der er tænkt over produktionen".
+- Logo (guld) sat nederst til højre på tekstsiden. Trykfiler lavet igen.
+- Tekniske data på trykinstruktionen (papir fra Carstens specifikation til Dantryk 25. okt.): forside 4+0 + digitalt guld + softkachering 1+0, 350 g silk · tekstside 4+0 + guld, 350 g silk · måneder 4+0 + guld, 300 g multidesign · bagside sort bundkarton, trykkes ikke. Wire-O i toppen + ophæng. Oplag 40.
+- Mangler: billede af Wire-O fra en tidligere kalender (Carsten finder det).
