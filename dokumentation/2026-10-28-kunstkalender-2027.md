@@ -80,3 +80,9 @@
 - Pakke "GalleriEG-kunstkalender-2027-trykfiler.zip" sendt til Carsten i tråden: 0 trykinstruktion, 1 samlet PDF (14 sider, 3 mm udfald, TrimBox/BleedBox, uden mærker), 2 løse sider med skæremærker, 3 guldlag (sort = guld, samme mål og mærker), LAES-MIG.txt.
 - Billedopløsning ved fuld størrelse (ppi): forside 216, feb 197, mar 150, apr 265, maj 275, jun 120, jul 127, aug 115, sep 167, okt 137, nov 230, dec 121, JAN 95 (lav). Carsten har tidligere valgt at beholde jan/jun/dec. Sagt til Carsten.
 - Værktøj gemt: vaerktoej/tryk-mini.js (BLEED, MARK_GAP, GOLD). instr.py (trykinstruktion) gemmes IKKE her, da den har Carstens kontaktdata.
+
+## 22. nov. 2026 – alt samlet i én mappe
+- OneDrive: Skrivebord > Tryksager > Kunstkalender 2027 er nu den ENE mappe for kalenderen:
+  0 LÆS FØRST (oversigt) · 1 Til trykkeriet - trykinstruktion og trykfiler · 2 Prøver og korrektur · 3 Tekster og logo · 4 Fotos af malerierne · 5 Kommunikation med trykkeriet (Carsten lægger selv mails ind).
+- Fotomappen "Kunstkalender billeder om 2027" er FLYTTET fra Skrivebord til "4 Fotos af malerierne". Gamle stier i noterne passer ikke længere.
+- Store filer (trykfiler, guldlag, prøver, logo) ligger på siden https://claude.ai/artifact/3TpHVaTkbh7Af4jv8xx55F (OneDrive tager kun filer under 1 MB fra Claude).
