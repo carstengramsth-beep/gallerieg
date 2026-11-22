@@ -90,3 +90,5 @@
 - Ønske fra Carsten: at både han og Claude kan hente og skifte filer i mappen. Løsning senere: forbind Carstens pc via Claude-appen (Remote Control) til mappen. Ikke sat op endnu.
 - 22. nov.: Carsten har hentet zip-pakken (Overførsler) og lægger den på sit pc-skrivebord. "Skrivebord" i Stifinder er IKKE det samme som OneDrive-mappen "Skrivebord" (Tryksager findes ikke dér). Næste: få pakken op i OneDrive-mappen "1 Til trykkeriet" (fx via browser: Upload) og dele den mappe med Dantryk.
 - OPGAVE: lav en enkel forklaring til Carsten om OneDrive vs. pc-skrivebord (hvad er hvad, hvor ligger filerne).
+- LØST 22. nov.: Carsten lagde zip-pakken på sit pc-skrivebord. Pc-skrivebordet ER synkroniseret med OneDrive-mappen "Skrivebord" (grønt flueben). Claude fandt filen dér og flyttede den selv til "1 Til trykkeriet".
+- FAST METODE fremover: Carsten lægger en fil på sit skrivebord → Claude finder den i OneDrive "Skrivebord" og flytter den på plads. Carsten skal IKKE klippe/sætte ind eller uploade.
