@@ -70,3 +70,4 @@
 - Lavet: "PRINT DENNE: Trykinstruktion" – ét A3-ark med alle 14 sider (målestok 1:7), skæremærker, format, filnavne, samling og guld.
 - Endelige trykfiler lavet: GalleriEG-2027-01-Forside.pdf … 14-December.pdf (3 mm udfald, skæremærker). Ligger i Claudes arbejdsmappe; sendes, når Carsten beder om dem.
 - Mangler stadig svar fra Dantryk: navn på guld-specialfarven, indbinding.
+- Trykinstruktion rettet: sort bagside (nr. 15, trykkes ikke), Carsten som kontaktperson, udfald vist på alle små sider (rød stiplet = skærelinje, blå = kant af udfald, skæremærker uden for udfald) + 3 forstørrede hjørner. Carsten: "det viser producenten, at der er tænkt over produktionen".
