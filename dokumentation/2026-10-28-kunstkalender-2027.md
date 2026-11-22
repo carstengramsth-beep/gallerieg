@@ -75,3 +75,8 @@
 - Tekniske data på trykinstruktionen (papir fra Carstens specifikation til Dantryk 25. okt.): forside 4+0 + digitalt guld + softkachering 1+0, 350 g silk · tekstside 4+0 + guld, 350 g silk · måneder 4+0 + guld, 300 g multidesign · bagside sort bundkarton, trykkes ikke. Wire-O i toppen + ophæng. Oplag 40.
 - Mangler: billede af Wire-O fra en tidligere kalender (Carsten finder det).
 - Billeder af Wire-O med ophæng (forfra og bagfra, fra en tidligere kalender) sat ind på trykinstruktionen under kontaktboksen.
+
+## 22. nov. 2026 – trykinstruktion godkendt, trykpakke lavet
+- Pakke "GalleriEG-kunstkalender-2027-trykfiler.zip" sendt til Carsten i tråden: 0 trykinstruktion, 1 samlet PDF (14 sider, 3 mm udfald, TrimBox/BleedBox, uden mærker), 2 løse sider med skæremærker, 3 guldlag (sort = guld, samme mål og mærker), LAES-MIG.txt.
+- Billedopløsning ved fuld størrelse (ppi): forside 216, feb 197, mar 150, apr 265, maj 275, jun 120, jul 127, aug 115, sep 167, okt 137, nov 230, dec 121, JAN 95 (lav). Carsten har tidligere valgt at beholde jan/jun/dec. Sagt til Carsten.
+- Værktøj gemt: vaerktoej/tryk-mini.js (BLEED, MARK_GAP, GOLD). instr.py (trykinstruktion) gemmes IKKE her, da den har Carstens kontaktdata.
