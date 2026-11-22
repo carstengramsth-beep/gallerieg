@@ -94,3 +94,4 @@
 - FAST METODE fremover: Carsten lægger en fil på sit skrivebord → Claude finder den i OneDrive "Skrivebord" og flytter den på plads. Carsten skal IKKE klippe/sætte ind eller uploade.
 - 22. nov.: Rekvisition GEG-2027-01 lavet (PDF, 1 side) og mailkladde til Peter (cc Michael Bech) ligger i Carstens Outlook-kladder. Faktura og levering: Paritas Kolding A/S, Store Heddinge. Leveringstid uge 48/49. Pris iflg. tilbud (står ikke her – projektet er offentligt).
 - Mangler: delings-link til mappen "1 Til trykkeriet" (skal være "Alle med linket", så Dantryk kan åbne). Claude sætter linket ind i kladden, når Carsten giver det. Carsten sender selv mailen.
+- 22. nov.: Mappen "1 Til trykkeriet" er delt med link (alle med linket). Linket er sat ind i mailkladden til Michael Bech (cc Peter). Carsten sender selv mailen fra Outlook-kladder.
