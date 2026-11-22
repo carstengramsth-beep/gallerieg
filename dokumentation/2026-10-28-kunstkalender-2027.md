@@ -86,3 +86,5 @@
   0 LÆS FØRST (oversigt) · 1 Til trykkeriet - trykinstruktion og trykfiler · 2 Prøver og korrektur · 3 Tekster og logo · 4 Fotos af malerierne · 5 Kommunikation med trykkeriet (Carsten lægger selv mails ind).
 - Fotomappen "Kunstkalender billeder om 2027" er FLYTTET fra Skrivebord til "4 Fotos af malerierne". Gamle stier i noterne passer ikke længere.
 - Store filer (trykfiler, guldlag, prøver, logo) ligger på siden https://claude.ai/artifact/3TpHVaTkbh7Af4jv8xx55F (OneDrive tager kun filer under 1 MB fra Claude).
+- Trykfilerne ligger IKKE i OneDrive (Claude kan kun lægge filer under 1 MB derind). Carsten gemmer selv zip-pakken i "1 Til trykkeriet", deler KUN den mappe med link og sender linket til Peter (Dantryk). Claude laver mailkladden, når Carsten giver linket.
+- Ønske fra Carsten: at både han og Claude kan hente og skifte filer i mappen. Løsning senere: forbind Carstens pc via Claude-appen (Remote Control) til mappen. Ikke sat op endnu.
