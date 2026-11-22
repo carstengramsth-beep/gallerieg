@@ -64,3 +64,9 @@
 - Carsten har godkendt måden ("præcis"). Versionen "alle lige store" uden røde mærker skal IKKE bruges.
 - RETTET samme dag: Carsten så, at der manglede farve ud over skærelinjen (udfald/bleed). Ny fil: "PRINT DENNE: 4 minikalendere – med farve ud over skærelinjen". 3 mm farve rundt om hver mini, også mellem dem. Alle 14 sider tjekket. Kun denne fil skal bruges.
 - Carsten prøver nu at printe og skære. Prøven viser, om der skal mere udfald til.
+
+## 22. nov. 2026 – færdig udgave + trykinstruktion
+- Carsten: "vi er i mål med den færdige udgave". Minikalender-prøven er godkendt.
+- Lavet: "PRINT DENNE: Trykinstruktion" – ét A3-ark med alle 14 sider (målestok 1:7), skæremærker, format, filnavne, samling og guld.
+- Endelige trykfiler lavet: GalleriEG-2027-01-Forside.pdf … 14-December.pdf (3 mm udfald, skæremærker). Ligger i Claudes arbejdsmappe; sendes, når Carsten beder om dem.
+- Mangler stadig svar fra Dantryk: navn på guld-specialfarven, indbinding.
