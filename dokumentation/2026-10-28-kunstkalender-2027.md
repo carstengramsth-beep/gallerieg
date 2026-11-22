@@ -74,3 +74,4 @@
 - Logo (guld) sat nederst til højre på tekstsiden. Trykfiler lavet igen.
 - Tekniske data på trykinstruktionen (papir fra Carstens specifikation til Dantryk 25. okt.): forside 4+0 + digitalt guld + softkachering 1+0, 350 g silk · tekstside 4+0 + guld, 350 g silk · måneder 4+0 + guld, 300 g multidesign · bagside sort bundkarton, trykkes ikke. Wire-O i toppen + ophæng. Oplag 40.
 - Mangler: billede af Wire-O fra en tidligere kalender (Carsten finder det).
+- Billeder af Wire-O med ophæng (forfra og bagfra, fra en tidligere kalender) sat ind på trykinstruktionen under kontaktboksen.
